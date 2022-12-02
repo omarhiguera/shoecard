@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card-principal {
+    box-shadow: 5px 5px 2px 2px gray;
+
+    width: 420px;
+    height: 640px;
+    border-radius: 25px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.card-diagonal {
+    background: rgb(147,60,16);
+    background: linear-gradient(0deg, rgba(147,60,16,1) 0%, rgba(168,100,40,0.989233193277311) 100%);
+    margin: 0;
+    padding: 1rem;
+    height: 55%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 0% 100%);
+    position: relative;
+}
+
+.card-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-d {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bag {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.shoe {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.shoe:hover {
+    transform: rotate(-30deg);
+    top: 17%;
+}
+
+.inferior {
+    margin: 1rem;
+}
+.inferior p {
+    text-align: center;
+}
+
+.sizes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.number:hover{
+    color: white;
+    background-color: #0d0d0c;
+}
+
+.total {
+    margin: 0;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.air{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.p {
+    font-family: sans-serif;
+}
+.talla {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.marca {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maniere {
+    margin: 0;
+    color: white;
+
+}
+
+.final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.final h2 {
+    margin: 0;
+}
+
+.buy {
+    padding: 1rem;
+    border-radius: 10px;
+    width: 140px;
+    margin-top: -20px;
+    margin-right: 20px;
+    background-color: #0d0d0c;
+    color: white;
+}
+
+.total {
+    font-weight: 300;
+}
+
+.text {
+    text-align: justify;
+    margin-top: -25px;
+}
+.final h2 {
+    font-size: 35px;
+}
